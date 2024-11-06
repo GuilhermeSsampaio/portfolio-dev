@@ -92,7 +92,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="Footer">©️Guilherme Sampaio 2024</div>
+      <div className="footer text-center">©️Guilherme Sampaio 2024</div>
     </div>
   );
 }
