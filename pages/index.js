@@ -21,11 +21,13 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export default function Home() {
   return (
-    <div>
-      <div className="header">
-        <h1>Eu</h1>
-        <h1>Projetos</h1>
-        <h1>Contato</h1>
+    <div className="container-fluid">
+      <div className="header container text-center">
+        <div className="row align-itens-start">
+          <h1 className="col">Eu</h1>
+          <h1 className="col">Projetos</h1>
+          <h1 className="col">Contato</h1>
+        </div>
       </div>
       <div className="content">
         <div className="job">
@@ -47,27 +49,33 @@ export default function Home() {
           <h2>Experiência Profissional</h2>
           <p>Estagiário como Desenvolvedor web na Embrapa (2023 - 2024)</p>
         </div>
-        <div className="what-i-know">
+        <div className="what-i-know ">
           <h2>Do que eu entendo?</h2>
-          <FaHtml5 size={60} color="#E34F26" />
-          <FaNodeJs size={60} color="#F7DF1E" />
-          <SiNextdotjs size={60} color="#000000" />
-          <FaPython size={60} color="#000000" />
-          <SiMysql size={60} color="#4479A1" />
-          <SiMongodb size={60} color="#47A248" />
-          <FaCss3Alt size={60} color="#2965F1" />
-          <SiReact size={60} color="#61DAFB" />
-          <SiStrapi size={60} color="#4945FF" />
-          <SiDocker size={60} color="#2496ED" />
-          <BiLogoPostgresql size={60} color="#336791" />
-          <SiGit size={60} color="#F1502F" />
-          <SiGithub size={60} color="#181717" />
+          <div className="container text-center">
+            <div className="row">
+              <FaHtml5 className="col" size={60} color="#E34F26" />
+              <FaNodeJs className="col" size={60} color="#F7DF1E" />
+              <SiNextdotjs className="col" size={60} color="#000000" />
+              <FaPython className="col" size={60} color="#000000" />
+              <SiMysql className="col" size={60} color="#4479A1" />
+              <SiMongodb className="col" size={60} color="#47A248" />
+            </div>
+            <div className="row">
+              <FaCss3Alt className="col" size={60} color="#2965F1" />
+              <SiReact className="col" size={60} color="#61DAFB" />
+              <SiStrapi className="col" size={60} color="#4945FF" />
+              <SiDocker className="col" size={60} color="#2496ED" />
+              <BiLogoPostgresql className="col" size={60} color="#336791" />
+              <SiGit className="col" size={60} color="#F1502F" />
+              <SiGithub className="col" size={60} color="#181717" />
+            </div>
+          </div>
         </div>
         <div className="projects">
-          <div className="ajustar-titulo">
-            <h2>Projetos</h2>
-            <p>Conheça meu git</p>
-            <SiGithub size={20} color="#181717" />
+          <div className="row">
+            <h2 className="col">Projetos</h2>
+            <p className="col">Conheça meu git</p>
+            <SiGithub className="col-1" size={20} color="#181717" />
           </div>
           <p>Algumas criações próprias e a serviço da Embrapa</p>
           <div className="carrousel">Carrossel de imagens de projetos</div>
@@ -75,9 +83,13 @@ export default function Home() {
         <div className="contact">
           <h2>Contato</h2>
           <p>Onde você pode me encontrar para um projeto?</p>
-          <FaLinkedin size={40} color="#00000" />
-          <SiGmail size={40} color="#00000" />
-          <RiInstagramFill size={40} color="#00000" />
+          <div className="container text-center">
+            <div className="row">
+              <FaLinkedin className="col" size={40} color="#00000" />
+              <SiGmail className="col" size={40} color="#00000" />
+              <RiInstagramFill className="col" size={40} color="#00000" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="Footer">©️Guilherme Sampaio 2024</div>
