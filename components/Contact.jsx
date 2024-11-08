@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <div className="contact content_section">
       <h2>Contato</h2>
-      <p>Onde você pode me encontrar para um projeto?</p>
+      <p className="fs-4">Onde você pode me encontrar para um projeto?</p>
       <div className="container text-center">
         <div className="row">
           <FaLinkedin className="col" size={40} color="#00000" />
