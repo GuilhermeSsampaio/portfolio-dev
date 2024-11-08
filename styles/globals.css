@@ -56,3 +56,49 @@
     background-color: var(--backgroud-light);
   }
 }
+
+.skill {
+  position: relative;
+  cursor: pointer;
+}
+.skill.selected {
+  background-color: #f0f0f0;
+  z-index: 1;
+}
+.skill-info {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--backgroud-light);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.skill.selected .skill-info {
+  transform: translateX(-50%) scale(1);
+  opacity: 1;
+}
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .skill-info {
+    top: 80px;
+  }
+}
+@media (max-width: 576px) {
+  .skill-info {
+    top: 90px;
+  }
+}
