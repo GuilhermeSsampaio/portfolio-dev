@@ -1,7 +1,10 @@
 export const Cards = ({ imageCap, title, text }) => {
   return (
     <div className="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
-      <div className="card" style={{ maxWidth: "18rem", width: "100%" }}>
+      <div
+        className="card  bg-dark text-white"
+        style={{ maxWidth: "18rem", width: "100%" }}
+      >
         <svg
           className="bd-placeholder-img card-img-top"
           width="100%"
@@ -20,7 +23,7 @@ export const Cards = ({ imageCap, title, text }) => {
         </svg>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <p className="card-text">{text}</p>
+          <p className="card-text fs-4">{text}</p>
           <a href="#" className="btn btn-primary">
             Conhecer
           </a>
