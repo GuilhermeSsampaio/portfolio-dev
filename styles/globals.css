@@ -1,5 +1,6 @@
 :root {
   --backgroud-dark: #44021e;
+  --backgroud-light: #847676;
 }
 
 .header {
@@ -17,4 +18,14 @@
   padding: 15px;
   border-radius: 25px;
   background-color: var(--backgroud-dark);
+}
+
+.arrow-up {
+  background: var(--backgroud-light);
+  border-radius: 50%;
+  padding: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
 }

@@ -6,6 +6,7 @@ import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Contact } from "@/components/Contact";
+import ArrowUp from "@/components/ArrowUp";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
+      <ArrowUp />
       <Footer />
     </div>
   );
