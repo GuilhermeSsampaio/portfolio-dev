@@ -2,24 +2,30 @@ import { SiGithub } from "react-icons/si";
 import { Cards } from "./Cards";
 
 export const Projects = () => {
+  var LogoTecnofam = require("../public/logo-256x256.png");
+
   return (
     <div className="projects content_section">
       <h2>Projetos</h2>
       <div className="row">
         <Cards
-          imageCap="Projeto 1"
-          title="Projeto 1"
-          text="Descrição do projeto 1"
+          imageCap="Tecnofam App"
+          title="Tecnofam App"
+          text="Descrição do Tecnofam App"
+          imageSrc={LogoTecnofam}
+          link="https://tecnofamapp.cpao.embrapa.br/home"
         />
         <Cards
           imageCap="Projeto 2"
           title="Projeto 2"
           text="Descrição do projeto 2"
+          imageSrc="/public/logo2.png"
         />
         <Cards
           imageCap="Projeto 3"
           title="Projeto 3"
           text="Descrição do projeto 3"
+          imageSrc="/public/logo3.png"
         />
       </div>
     </div>
