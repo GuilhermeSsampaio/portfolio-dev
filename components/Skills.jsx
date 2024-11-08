@@ -19,7 +19,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 export const Skills = () => {
   return (
-    <div className="skills ">
+    <div className="skills content_section ">
       <h2>Do que eu entendo?</h2>
       <div className="container text-center">
         <div className="row">

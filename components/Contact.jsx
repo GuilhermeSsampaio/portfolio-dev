@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 import { RiInstagramFill } from "react-icons/ri";
 export const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact content_section">
       <h2>Contato</h2>
       <p>Onde você pode me encontrar para um projeto?</p>
       <div className="container text-center">

@@ -1,7 +1,18 @@
+:root {
+  --backgroud-dark: #44021e;
+}
+
 .header {
-  background-color: red;
+  background-color: var(--backgroud-dark);
 }
 
 .footer {
-  background-color: red;
+  background-color: var(--backgroud-dark);
+}
+
+.content_section {
+  margin: 1rem;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: var(--backgroud-dark);
 }

@@ -1,6 +1,6 @@
 export const Formation = () => {
   return (
-    <div className="my-formation">
+    <div className="my-formation content_section">
       <h2>Formação</h2>
       <ul>
         <li>Técnico Em Informática Para Internet - IFMS (2022)</li>

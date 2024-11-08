@@ -1,6 +1,6 @@
 export const Job = () => {
   return (
-    <div className="job container=fluid">
+    <div className="job content_section container=fluid">
       <h2>Desenvolvedor Web</h2>
       <p>O que eu faço?</p>
       <ul>
