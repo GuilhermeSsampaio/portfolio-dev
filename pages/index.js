@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="bg-dark text-light">
       <Header />
-      <section id="job">
+      <section id="job" className="content_section">
         <Job />
       </section>
       <section id="formation">

@@ -1,6 +1,7 @@
 :root {
   --backgroud-dark: #44021e;
   --backgroud-light: #847676;
+  --backgroud-highlight: #5a2b3e; /* Nova cor de fundo mais leve */
 }
 
 .header {
@@ -20,6 +21,10 @@
   background-color: var(--backgroud-dark);
 }
 
+.content_section.highlight-background {
+  background-color: var(--backgroud-highlight); /* Cor de fundo mais leve */
+}
+
 .arrow-up {
   background: var(--backgroud-light);
   border-radius: 50%;
@@ -28,4 +33,26 @@
   bottom: 20px;
   right: 20px;
   cursor: pointer;
+}
+
+.highlight {
+  animation: zoomIn 0.5s forwards, highlightColor 0.5 forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes highlightColor {
+  from {
+    background-color: var(--backgroud-dark);
+  }
+  to {
+    background-color: var(--backgroud-light);
+  }
 }

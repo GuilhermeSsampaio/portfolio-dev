@@ -8,9 +8,27 @@ export const Contact = () => {
       <p className="fs-4">Onde você pode me encontrar para um projeto?</p>
       <div className="container text-center">
         <div className="row">
-          <FaLinkedin className="col" size={40} color="#00000" />
-          <SiGmail className="col" size={40} color="#00000" />
-          <RiInstagramFill className="col" size={40} color="#00000" />
+          <a
+            href="https://www.linkedin.com/in/guilhermessampaio"
+            target="_blank"
+            className="col text-decoration-none"
+          >
+            <FaLinkedin size={40} color="#FFFFFF" />
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=guilhermessampaio20@gmail.com"
+            target="_blank"
+            className="col text-decoration-none"
+          >
+            <SiGmail size={40} color="#FFFFFF" />
+          </a>
+          <a
+            href="https://www.instagram.com/guilhermessampaio20"
+            target="_blank"
+            className="col text-decoration-none"
+          >
+            <RiInstagramFill size={40} color="#FFFFFF" />
+          </a>
         </div>
       </div>
     </div>
