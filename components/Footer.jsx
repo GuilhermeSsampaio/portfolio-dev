@@ -1,3 +1,5 @@
 export const Footer = () => {
-  return <div className=" footer text-center">©️Guilherme Sampaio 2024</div>;
+  return (
+    <div className=" footer text-center fs-4">©️Guilherme Sampaio 2024</div>
+  );
 };
