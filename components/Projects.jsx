@@ -11,11 +11,13 @@ export const Projects = () => {
         <Cards
           imageCap="Tecnofam App"
           title="Tecnofam App"
-          text="Descrição do Tecnofam App"
+          text="Cartilha da agricultura familiar desenvolvida em conjunto com a Embrapa, que consome dados de uma API feita com Strapi JS."
           imageSrc={LogoTecnofam}
           link="https://tecnofamapp.cpao.embrapa.br/home"
-        />
-        <Cards
+        >
+          <p>Desenvolvido em colaboração com Pedro Mota.</p>
+        </Cards>
+        {/* <Cards
           imageCap="Projeto 2"
           title="Projeto 2"
           text="Descrição do projeto 2"
@@ -26,7 +28,7 @@ export const Projects = () => {
           title="Projeto 3"
           text="Descrição do projeto 3"
           imageSrc="/public/logo3.png"
-        />
+        /> */}
       </div>
     </div>
   );

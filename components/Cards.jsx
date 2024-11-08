@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const Cards = ({ imageCap, title, text, imageSrc, link }) => {
+export const Cards = ({ imageCap, title, text, imageSrc, link, children }) => {
   return (
     <div className="col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
       <div className="card" style={{ maxWidth: "18rem", width: "100%" }}>
@@ -33,6 +33,7 @@ export const Cards = ({ imageCap, title, text, imageSrc, link }) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{text}</p>
+          {children}
           <a href={link} target="_blank" className="btn btn-primary">
             Conhecer
           </a>
